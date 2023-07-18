@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Annotations">
+    <test name="Run Class Annotations">
+        <classes>
+            <class name="DemoTestNg.ConfigAnnotations"/>
+            <class name="DemoTestNg.ConfigAnnotationsListBox"/>
+        </classes>
+    </test>
+</suite>

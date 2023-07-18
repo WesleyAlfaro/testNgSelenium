@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Annotations">
+    <test name="Run group Annotations">
+        <groups>
+            <run>
+                <include name="regression"/>
+                <exclude name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="DemoTestNg.ConfigAnnotations">
+            </class>
+            <class name="DemoTestNg.ConfigAnnotationsListBox"/>
+        </classes>
+    </test>
+</suite>
